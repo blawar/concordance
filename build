@@ -1,0 +1,2 @@
+g++ single_threaded.cpp -o concordance  -O2
+g++ multi_threaded.cpp -g -lboost_thread -o concordancemt  -O2 
